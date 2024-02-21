@@ -11,6 +11,6 @@ fun runningSum(nums: IntArray): IntArray {
     for (i in 1 until nums.size) {
         res[i] = nums[i] + res[i - 1]
     }
-    println(res.joinToString(","))
+    println(res.joinToString())
     return res
 }

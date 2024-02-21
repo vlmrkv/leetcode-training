@@ -1,4 +1,5 @@
 fun main() {
+
     val numbers = intArrayOf(2, 7, 11, 15)
     val target = 9
     twoSum(numbers, target)
@@ -17,6 +18,6 @@ fun twoSum(numbers: IntArray, target: Int): Array<Int> {
         }
         continue
     }
-    println(result.joinToString(""))
+    println(result.joinToString())
     return result
 }
